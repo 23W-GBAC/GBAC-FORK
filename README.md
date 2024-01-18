@@ -18,4 +18,4 @@
 # Contributing
 ### Feel free to fork the repository and submit pull requests. You can also open an issue for bugs, suggestions, or feature requests
 # Explanation of the code
-' import tkinter as tk '
+`import tkinter as tk`
