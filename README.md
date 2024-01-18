@@ -17,6 +17,3 @@
 ### Tkinter library (usually comes pre-installed with Python).
 # Contributing
 ### Feel free to fork the repository and submit pull requests. You can also open an issue for bugs, suggestions, or feature requests
-# License
-### This project is open source and available under the MIT License.
-### This template covers the basic aspects of your application based on the initial inspection of the script. You might want to adjust or add more details depending on the full functionality of your script and any additional features it might have.
