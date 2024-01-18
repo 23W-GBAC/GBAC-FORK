@@ -18,4 +18,33 @@
 # Contributing
 ### Feel free to fork the repository and submit pull requests. You can also open an issue for bugs, suggestions, or feature requests
 # Explanation of the code
-import tkinter as tk...
+### 1-Importing Modules:
+`import tkinter as tk
+`
+#### This line imports the tkinter module and renames it to tk. tkinter is a standard module in Python used for creating graphical user interfaces.
+### 2-Defining the calculate_bmi Function:
+`def calculate_bmi():
+    weight = float(weight_entry.get())
+    height = float(height_entry.get()) / 100
+    gender = gender_var.get()
+
+    if gender == "Male":
+        bmi = weight / (height ** 2)
+    else:
+        bmi = (weight * 0.9) / (height ** 2)
+
+    bmi_result.config(text=f"Your BMI is :{bmi:.2f}")
+    interpretation = interpret_bmi(bmi)
+    interpretation_label.config(text=f"You are considered: {interpretation}")
+`
+#### This function calculates the Body Mass Index (BMI).
+##### .It retrieves weight and height from user inputs and converts them to floating-point numbers.
+##### .It also retrieves the user's gender (male or female).
+##### .There's a slightly different formula for calculating BMI based on gender.
+##### .The BMI result and its interpretation are displayed in the user interface.
+### 3-Defining the interpret_bmi Function:
+`def interpret_bmi(bmi):
+    ...
+`
+##### .This function interprets the BMI value.
+##### .The code is incomplete here, but typically, it categorizes BMI into classes like "underweight," "normal," "overweight," etc.
