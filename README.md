@@ -80,7 +80,8 @@
 ####  1.Clone or download this repository.
 ####  2.Navigate to the directory containing the bmi_calculator.py script.
 ####  3.Run the script using Python:
-####  '''python bmi_calculator.py'''
+####  ` python bmi_calculator.py `
+
 # Usage
 ### Enter your weight and height using the provided fields.
 ### Select your gender.
